@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load staticfiles %}
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <title>Lately</title>
+</head>
+<body style="background-color: #FF9900;">
+    <a href="/">
+        <img class="logo" src="static/css/logo_large.png" style="margin: auto;
+                                margin-top: 100px;
+                                text-align: center;
+                                display: block;">
+    </a>
+    <h1 class="message" style="text-align: center;
+                                color: #CF2034;
+                                font-family: "Courier 10 Pitch",serif;
+                                font-size: 40pt;">SORRY BOSS</h1>
+    <div class="form" style="width: 40%;
+    border-radius: 20px;
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    background-color: grey;">
+        <form action='/tutorial/send/' method='post'>{% csrf_token %}
+        {{ form.as_p }}
+        <input type='submit' value='Send' id="submit"/>
+        </form>
+    </div>
+</body>
+</html>

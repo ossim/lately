@@ -1,0 +1,10 @@
+<html>
+<head></head>
+<body>
+<h1>WHAT A FORM!!!! PUT IN YOUR EMAIL!!</h1>
+<form action='/tutorial/send/' method='post'>{% csrf_token %}
+{{ form.as_p }}
+<input type='submit' value='Submit' />
+</form>
+</body>
+</html>

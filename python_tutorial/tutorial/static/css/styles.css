@@ -1,0 +1,56 @@
+.logo {
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+}
+
+.message {
+    text-align: center;
+    color: #CF2034;
+    font-family: "Courier 10 Pitch",serif;
+    font-size: 40pt;
+}
+
+.action {
+    text-align: center;
+    font-family: "Courier 10 Pitch",serif;
+    font-size: 30pt;
+    color: #CF2034;
+}
+
+.action a {
+    color: #CF2034;
+    text-decoration: none;
+}
+
+.button {
+    width: 20%;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: grey;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: purple;
+}
+
+body {
+    background-color: #FF9900;
+}
+
+.form {
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: grey;
+}
+
+#submit {
+
+}
