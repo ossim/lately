@@ -81,9 +81,9 @@ def post_form_upload(request):
 
 def randomExcuses():
     prepositions = ["in", "by", "on", "under", "above", "within", "with", "out", "to", "around", "about"]
-    verbs = ["tickling", "eating", "cauterizing", "dancing", "thoroughly examining", "kissing", "heavy petting", "praying for", "netflix and chillin'", "passing", "proselytizing", "smizing at", "hacking", "embracing", "feeing euphoric with", "enacting justice on", "castrating", "vomiting up", "feeling up"]
+    verbs = ["tickling", "eating", "forgiving the sins of", "cauterizing", "dancing with", "thoroughly examining", "aggressively making out with", "heavy petting", "praying for", "netflix and chillin' with", "hacking into", "proselytizing", "smizing at", "hacking", "giving flat tires to", "feeing euphoric with", "enacting justice on", "castrating", "vomiting up", "feeling up"]
     nouns = ["zumba instructor", "hackathon", "computer", "electric cucumber", "goat", "furby", "severely athsmatic pug", "presidential candidate", "onesie", "artisanal cupcake", "Oculus", "GAP(tm) clothes (did I mention I love GAP?)", "startup accelerator", "buzzfeed quiz", "kidney stone", "eternal soul", "conjoined twin who was partially consumed in the womb", "copy of L. Ron Hubbards complete works", "inner demons", "missing Speaker of the House", "horse meat", "adult toy", "grandchild", "son", "horse", "lactate", "Ice Dancing partner", "foul mouth", "muscle spasms or jazz hands, I cannot tell", "surpressed dreams of shirtless lumberjacks"]
-    possessive = ["my", "Donald Trump's", "Carly Fiorina's controversially fictional", "Selena Gomez's lupus-y", "my", "my", "my", "my partner's", "my mother's", "the CalHacks 2.0 administrative committee's shared"]
+    possessive = ["my", "Donald Trump's", "Carly Fiorina's controversially fictional", "Selena Gomez's lupus-y", "my", "my", "my", "my partner's", "my mother's", "the CalHacks 2.0 administrative committee's shared", "the ghost of Steve Jobs's", "my GAP(tm) clothes'", "that one guy who keeps talking to his google glass's", "my", "my", "my inner goddesses'", "Pumpkin Spice Latte"]
     string = ("Sorry for being late, I was " + verbs[randint(0, len(verbs)-1)]
         # + " " + prepositions[randint(0, len(prepositions) - 1)]
         + " " + possessive[randint(0, len(possessive)-1)]
