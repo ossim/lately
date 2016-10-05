@@ -18,7 +18,6 @@ Why not embrace the inevitable chaos the world offers and secede your dearest po
 
 ![wow, picture 1](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/303/268/datas/gallery.jpg)
 ![wow, picture 2](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/303/276/datas/gallery.jpg)
-![wow, picture 3](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/303/281/datas/gallery.jpg)
 
 ### just a taste of what you're getting by signing on with us
 * Sorry for being late, I was forgiving the sins of my priest. 
